@@ -1,0 +1,26 @@
+{
+  "name": "movie-mania",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /movie-mania/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfat1989/movie-mania.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfat1989/movie-mania/issues"
+  },
+  "homepage": "https://github.com/Alfat1989/movie-mania#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
