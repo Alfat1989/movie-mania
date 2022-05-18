@@ -1,0 +1,2 @@
+function duplicateCount(o){const e={},l=o.toLowerCase();counter=0;for(var n=0;n<l.length;n++)e[l[n]]?e[l[n]]<2&&(e[l[n]]+=1,counter++):e[l[n]]=1;return counter}console.log("Movie"),console.log(duplicateCount("")),console.log(duplicateCount("abcde")),console.log(duplicateCount("aabbcde")),console.log(duplicateCount("aabBcde")),console.log(duplicateCount("Indivisibility")),console.log(duplicateCount("Indivisibilities"));
+//# sourceMappingURL=index.fc478f2e.js.map
